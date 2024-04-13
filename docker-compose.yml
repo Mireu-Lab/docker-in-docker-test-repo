@@ -6,7 +6,7 @@ services:
       context: ./dev
       dockerfile: dockerfile
     ports:
-      - "2024:22"
+      - "2025:22"
     user: $DOCKER_USER:$DOCKER_GROUP
     volumes:
       - '../dataset_dir/:/home/Hosting/workspace/dataset_dir:rw'

@@ -1,5 +1,7 @@
 FROM golang:latest
 
-COPY . .
+ADD main .
 
-CMD [ "./app" ]
+EXPOSE 80
+
+CMD [ "./main" ]

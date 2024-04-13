@@ -1,1 +1,5 @@
-FROM docker:latest
+FROM golang:latest
+
+COPY . .
+
+CMD [ "./app" ]

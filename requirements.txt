@@ -4,5 +4,5 @@ docker==7.0.0
 idna==3.7
 mercurial==5.6.1
 packaging==24.0
-requests==2.32.0
+requests==2.32.4
 urllib3==2.2.2
